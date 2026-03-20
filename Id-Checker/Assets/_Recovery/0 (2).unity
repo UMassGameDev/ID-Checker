@@ -257,7 +257,6 @@ GameObject:
   m_Component:
   - component: {fileID: 832185579}
   - component: {fileID: 832185580}
-  - component: {fileID: 832185581}
   m_Layer: 0
   m_Name: ScriptObject
   m_TagString: Untagged
@@ -287,23 +286,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 832185578}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 185344d2615c4e9408d581f62dd0abea, type: 3}
+  m_Script: {fileID: 11500000, guid: e0618c81707814b4fa2504c528d710c8, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ClickScript
---- !u!114 &832185581
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 832185578}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63c2ce5b6bc34b944a1bc61b848c94f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ClickReleaseScript
+  m_EditorClassIdentifier: Assembly-CSharp::ClickToggle
 --- !u!1 &1114557810
 GameObject:
   m_ObjectHideFlags: 0

@@ -130,6 +130,9 @@ GameObject:
   - component: {fileID: 456787156}
   - component: {fileID: 456787155}
   - component: {fileID: 456787157}
+  - component: {fileID: 456787158}
+  - component: {fileID: 456787159}
+  - component: {fileID: 456787160}
   m_Layer: 0
   m_Name: TheVeryBestSquare
   m_TagString: Untagged
@@ -185,7 +188,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -204,8 +207,8 @@ Transform:
   m_GameObject: {fileID: 456787154}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.723, y: -2.031, z: 0}
-  m_LocalScale: {x: -1.284942, y: 1.3262799, z: 1}
+  m_LocalPosition: {x: -3.7083, y: -2.031, z: 0}
+  m_LocalScale: {x: -1.3142387, y: 1.3262799, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1981591963}
@@ -247,6 +250,42 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.58
+--- !u!114 &456787158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 456787154}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c54b006db07a39e4e9af3a1c4b1f82fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
+--- !u!114 &456787159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 456787154}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0618c81707814b4fa2504c528d710c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ClickToggle
+--- !u!114 &456787160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 456787154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63c2ce5b6bc34b944a1bc61b848c94f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ClickReleaseScript
 --- !u!1 &832185578
 GameObject:
   m_ObjectHideFlags: 0
@@ -299,7 +338,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 832185578}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 63c2ce5b6bc34b944a1bc61b848c94f1, type: 3}
   m_Name: 
