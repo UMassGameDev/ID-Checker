@@ -7,7 +7,8 @@ public class ClickToggle : MonoBehaviour
     Vector3 mousePosition;
     RaycastHit2D raycastHit2D;
     Transform clickObject;
-    bool isSelected = false; 
+    bool isSelected = false;
+    public GameObject gameobject; 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {

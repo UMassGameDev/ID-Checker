@@ -5,8 +5,8 @@ public class HoverObject : MonoBehaviour
 {
     Vector3 mousePosition;
     RaycastHit2D raycastHit2D;
-    Transform prevHover, NextHover; 
-   
+    Transform prevHover, NextHover;
+    public GameObject gameobject; 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
