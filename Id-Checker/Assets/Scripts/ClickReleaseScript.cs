@@ -5,7 +5,6 @@ public class ClickReleaseScript : MonoBehaviour
     Vector3 mousePosition;
     RaycastHit2D raycastHit2D;
     Transform clickObject;
-    public GameObject gameobject; 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {

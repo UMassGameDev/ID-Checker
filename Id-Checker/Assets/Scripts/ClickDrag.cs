@@ -5,7 +5,6 @@ public class ClickDrag : MonoBehaviour
     Vector3 mousePosition;
     RaycastHit2D raycastHit2D;
     Transform clickObject;
-    public GameObject gameobject; 
     bool isMouseDown = false;
 
     void Start() { }
